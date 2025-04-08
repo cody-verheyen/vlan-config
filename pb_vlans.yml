@@ -1,4 +1,4 @@
-.- name: GENERATE IOS VLAN CONFIGURATION
+- name: GENERATE IOS VLAN CONFIGURATION
   hosts: all
   gather_facts: false
   connection: local
