@@ -1,7 +1,7 @@
-- name: GENERATE IOS VLAN CONFIGURATION
+.- name: GENERATE IOS VLAN CONFIGURATION
   hosts: all
   gather_facts: false
-  connection: local 
+  connection: local
  tasks:
     - name: ENSURE OUTPUT FOLDER EXISTS
       ansible.builtin.file:
