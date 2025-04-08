@@ -2,7 +2,7 @@
   hosts: all
   gather_facts: false
   connection: local
- tasks:
+  tasks:
     - name: ENSURE OUTPUT FOLDER EXISTS
       ansible.builtin.file:
         path: output
